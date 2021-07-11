@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1>Hello!</h1>
+    <p>This is an app that records how many days you went to the gym and how many days you skipped it.</p>
+    <a class="btn btn-dark" href="{% url 'Gym:index' %}">
+        Record Your current workout!</a
+      >
+  </div>
+  </div>
+{% endblock %}
